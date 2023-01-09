@@ -28,6 +28,11 @@ public class HashTable<K, V> {
         } else {
             MyNode<K, V> myNode = myLinkedList.search(word);
             return myNode != null ? myNode.value : null;
+//            if (myNode != null) {
+//                return myNode.value;
+//            } else {
+//                return null;
+//            }
         }
 
     }
